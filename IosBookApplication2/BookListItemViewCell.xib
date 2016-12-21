@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BookListItemViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="83o-G2-Rae">
+                        <rect key="frame" x="10" y="5" width="300" height="69"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaul_title" translatesAutoresizingMaskIntoConstraints="NO" id="TCK-Vo-Tuf">
+                                <rect key="frame" x="10" y="10" width="44" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="VQK-BS-NKM"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="大秦帝国" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2h-c9-TPg">
+                                <rect key="frame" x="66" y="10" width="250" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="cg4-Na-dDL"/>
+                                    <constraint firstAttribute="width" constant="250" id="isz-Xu-6aB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一本很神奇的书" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hE-wd-dao">
+                                <rect key="frame" x="64" y="37" width="250" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ENT-JL-PZk"/>
+                                    <constraint firstAttribute="width" constant="250" id="WAX-hw-Jg8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="to" translatesAutoresizingMaskIntoConstraints="NO" id="Wht-cY-jye">
+                                <rect key="frame" x="262" y="22" width="22" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="HIh-Ih-BlI"/>
+                                    <constraint firstAttribute="height" constant="24" id="orF-X6-eVx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88593750000000004" green="0.88593750000000004" blue="0.88593750000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="TCK-Vo-Tuf" firstAttribute="leading" secondItem="83o-G2-Rae" secondAttribute="leading" constant="10" id="Q5b-LL-EGU"/>
+                            <constraint firstItem="Wht-cY-jye" firstAttribute="centerY" secondItem="83o-G2-Rae" secondAttribute="centerY" id="myk-5e-4a4"/>
+                            <constraint firstItem="8hE-wd-dao" firstAttribute="top" secondItem="83o-G2-Rae" secondAttribute="top" constant="37" id="nF4-Yi-HOZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Wht-cY-jye" secondAttribute="trailing" constant="16" id="quh-gi-HL3"/>
+                            <constraint firstItem="TCK-Vo-Tuf" firstAttribute="top" secondItem="83o-G2-Rae" secondAttribute="top" constant="10" id="rQK-03-ayo"/>
+                            <constraint firstAttribute="bottom" secondItem="TCK-Vo-Tuf" secondAttribute="bottom" constant="10" id="t8c-jU-VgH"/>
+                            <constraint firstItem="Q2h-c9-TPg" firstAttribute="top" secondItem="83o-G2-Rae" secondAttribute="top" constant="10" id="tic-JO-bbR"/>
+                            <constraint firstItem="8hE-wd-dao" firstAttribute="leading" secondItem="TCK-Vo-Tuf" secondAttribute="trailing" constant="10" id="y4Q-oW-d1w"/>
+                            <constraint firstItem="Q2h-c9-TPg" firstAttribute="leading" secondItem="TCK-Vo-Tuf" secondAttribute="trailing" constant="12" id="zU5-ll-f0d"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="83o-G2-Rae" secondAttribute="trailing" constant="10" id="6Nt-dp-hM0"/>
+                    <constraint firstItem="83o-G2-Rae" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="90o-f7-nNx"/>
+                    <constraint firstItem="83o-G2-Rae" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="qy4-Tr-iLr"/>
+                    <constraint firstAttribute="bottom" secondItem="83o-G2-Rae" secondAttribute="bottom" constant="5" id="rFq-aa-FCz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellPrentView" destination="83o-G2-Rae" id="gkd-2f-ilx"/>
+                <outlet property="desUILabel" destination="8hE-wd-dao" id="SlV-bV-1eV"/>
+                <outlet property="titleImageView" destination="TCK-Vo-Tuf" id="1XB-5J-ZHt"/>
+                <outlet property="titleUILabel" destination="Q2h-c9-TPg" id="RjG-oa-Wi8"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="defaul_title" width="200" height="200"/>
+        <image name="to" width="128" height="128"/>
+    </resources>
+</document>
