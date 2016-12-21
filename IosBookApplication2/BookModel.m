@@ -21,8 +21,7 @@
         self.price = [dict objectForKey:@"price"];
         self.filename = [dict objectForKey:@"filename"];
         
-        self.descriptions = [dict objectForKey:@"description
-                             "];
+        self.descriptions = [dict objectForKey:@"description"];
     }
     return self;
 }
