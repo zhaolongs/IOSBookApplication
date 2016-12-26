@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F31B8F1E1E0CE88D001FA1F1 /* RequestNetResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B8F1D1E0CE88D001FA1F1 /* RequestNetResponseModel.m */; };
+		F31B8F211E0CE9B6001FA1F1 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F31B8F201E0CE9B6001FA1F1 /* UserModel.m */; };
 		F327FA5A1E0A10B3000F54CA /* BookListItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F327FA581E0A10B3000F54CA /* BookListItemViewCell.m */; };
 		F327FA5B1E0A10B3000F54CA /* BookListItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F327FA591E0A10B3000F54CA /* BookListItemViewCell.xib */; };
 		F327FA5F1E0A1D8F000F54CA /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F327FA5E1E0A1D8F000F54CA /* BookModel.m */; };
@@ -14,6 +16,8 @@
 		F327FA661E0A1E83000F54CA /* DbManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F327FA651E0A1E83000F54CA /* DbManager.m */; };
 		F327FA691E0A2A50000F54CA /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F327FA681E0A2A50000F54CA /* libsqlite3.0.tbd */; };
 		F327FA6B1E0A3A67000F54CA /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F327FA6A1E0A3A67000F54CA /* libsqlite3.tbd */; };
+		F327FA701E0AE7B9000F54CA /* NetRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F327FA6F1E0AE7B9000F54CA /* NetRequestManager.m */; };
+		F385BAA91E0CDD0400634DE8 /* StringUtls.m in Sources */ = {isa = PBXBuildFile; fileRef = F385BAA81E0CDD0400634DE8 /* StringUtls.m */; };
 		F3DDB1481E09AB8A00B5D356 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DDB1471E09AB8A00B5D356 /* main.m */; };
 		F3DDB14B1E09AB8A00B5D356 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3DDB14A1E09AB8A00B5D356 /* AppDelegate.m */; };
 		F3DDB1511E09AB8A00B5D356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DDB14F1E09AB8A00B5D356 /* Main.storyboard */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F31B8F1C1E0CE88D001FA1F1 /* RequestNetResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestNetResponseModel.h; sourceTree = "<group>"; };
+		F31B8F1D1E0CE88D001FA1F1 /* RequestNetResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestNetResponseModel.m; sourceTree = "<group>"; };
+		F31B8F1F1E0CE9B6001FA1F1 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		F31B8F201E0CE9B6001FA1F1 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		F327FA571E0A10B3000F54CA /* BookListItemViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListItemViewCell.h; sourceTree = "<group>"; };
 		F327FA581E0A10B3000F54CA /* BookListItemViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListItemViewCell.m; sourceTree = "<group>"; };
 		F327FA591E0A10B3000F54CA /* BookListItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookListItemViewCell.xib; sourceTree = "<group>"; };
@@ -58,6 +66,10 @@
 		F327FA651E0A1E83000F54CA /* DbManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbManager.m; sourceTree = "<group>"; };
 		F327FA681E0A2A50000F54CA /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		F327FA6A1E0A3A67000F54CA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F327FA6E1E0AE7B9000F54CA /* NetRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetRequestManager.h; sourceTree = "<group>"; };
+		F327FA6F1E0AE7B9000F54CA /* NetRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetRequestManager.m; sourceTree = "<group>"; };
+		F385BAA71E0CDD0400634DE8 /* StringUtls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtls.h; sourceTree = "<group>"; };
+		F385BAA81E0CDD0400634DE8 /* StringUtls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtls.m; sourceTree = "<group>"; };
 		F3DDB1431E09AB8A00B5D356 /* IosBookApplication2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosBookApplication2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DDB1471E09AB8A00B5D356 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3DDB1491E09AB8A00B5D356 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +123,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F31B8F1B1E0CE854001FA1F1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F31B8F1C1E0CE88D001FA1F1 /* RequestNetResponseModel.h */,
+				F31B8F1D1E0CE88D001FA1F1 /* RequestNetResponseModel.m */,
+				F31B8F1F1E0CE9B6001FA1F1 /* UserModel.h */,
+				F31B8F201E0CE9B6001FA1F1 /* UserModel.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		F327FA561E0A108B000F54CA /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +173,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F327FA6C1E0AE784000F54CA /* test */ = {
+			isa = PBXGroup;
+			children = (
+				F327FA6D1E0AE78F000F54CA /* net */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		F327FA6D1E0AE78F000F54CA /* net */ = {
+			isa = PBXGroup;
+			children = (
+				F327FA6E1E0AE7B9000F54CA /* NetRequestManager.h */,
+				F327FA6F1E0AE7B9000F54CA /* NetRequestManager.m */,
+			);
+			name = net;
+			sourceTree = "<group>";
+		};
+		F385BAA61E0CDCF300634DE8 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F385BAA71E0CDD0400634DE8 /* StringUtls.h */,
+				F385BAA81E0CDD0400634DE8 /* StringUtls.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
 		F3DDB13A1E09AB8A00B5D356 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +223,8 @@
 		F3DDB1451E09AB8A00B5D356 /* IosBookApplication2 */ = {
 			isa = PBXGroup;
 			children = (
+				F385BAA61E0CDCF300634DE8 /* utils */,
+				F327FA6C1E0AE784000F54CA /* test */,
 				F3DDB18F1E09D51400B5D356 /* base */,
 				F3DDB1831E09B13C00B5D356 /* home */,
 				F3DDB17C1E09AC4D00B5D356 /* login */,
@@ -213,6 +264,7 @@
 		F3DDB17C1E09AC4D00B5D356 /* login */ = {
 			isa = PBXGroup;
 			children = (
+				F31B8F1B1E0CE854001FA1F1 /* model */,
 				F3DDB14F1E09AB8A00B5D356 /* Main.storyboard */,
 				F3DDB1801E09ACE400B5D356 /* WelcomeController.h */,
 				F3DDB1811E09ACE400B5D356 /* WelcomeController.m */,
@@ -392,9 +444,13 @@
 				F327FA5A1E0A10B3000F54CA /* BookListItemViewCell.m in Sources */,
 				F3DDB1891E09B1A700B5D356 /* SelectLoginViewController.m in Sources */,
 				F327FA661E0A1E83000F54CA /* DbManager.m in Sources */,
+				F31B8F1E1E0CE88D001FA1F1 /* RequestNetResponseModel.m in Sources */,
+				F385BAA91E0CDD0400634DE8 /* StringUtls.m in Sources */,
 				F3DDB1821E09ACE400B5D356 /* WelcomeController.m in Sources */,
 				F3DDB18E1E09BB6400B5D356 /* LoginViewController.m in Sources */,
 				F3DDB1861E09B14A00B5D356 /* HomeViewController.m in Sources */,
+				F31B8F211E0CE9B6001FA1F1 /* UserModel.m in Sources */,
+				F327FA701E0AE7B9000F54CA /* NetRequestManager.m in Sources */,
 				F3DDB1481E09AB8A00B5D356 /* main.m in Sources */,
 				F327FA621E0A1D99000F54CA /* BookClassModel.m in Sources */,
 			);

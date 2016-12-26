@@ -10,4 +10,9 @@
 
 @interface NetRequestManager : NSObject
 
+//GET网络请求
++(NSString *)getRequestData:(NSString *) urlString;
+//POST网络请求
++(NSString *)postRequestData:(NSString *) urlString : (NSDictionary *) dictionary;
+
 @end

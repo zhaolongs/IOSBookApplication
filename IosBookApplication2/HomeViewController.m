@@ -40,7 +40,7 @@
     dispatch_sync(dispatch_get_global_queue(0, 0), ^{
         _bookListArray = [DbManager queryAllBookLst];
         //加载网络数据
-        [self loadNetData];
+         [self loadNetData];                       
     });
 }
 //加载网络数据
